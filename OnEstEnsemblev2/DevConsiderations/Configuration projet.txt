@@ -1,0 +1,15 @@
+Pour configurer le projet asp.net avec angular, j'ai dû aller à la page suivante: 
+
+http://www.talkingdotnet.com/implement-asp-net-core-spa-template-feature-in-angular6-app/
+
+Pour les assembli qui manquaient, j'ai dû chercher les méthodes suir internet et mettre les packages qui manquent.
+
+Problème de réféence des images. La référence se fait à partir du index.html la balise base qui est comprise dans l'entête est la base de tous les liens url.
+https://developer.mozilla.org/fr/docs/Web/HTML/Element/base
+
+Attention aux verisons de bootstrap, car ca peut affecter les rendus.
+
+Il faut faire attention, dans les classes bootstrap, il y a souvent des classes qui ont des couleurs lors de leur appel, quand tu fais les background-color après, ca ne marche plus.
+
+
+Souvent pour travailler avec Bootstrap tu dois enlever certiane classes qui sont au dessu pour mettre tes styles que tu veux.
