@@ -13,3 +13,24 @@ Il faut faire attention, dans les classes bootstrap, il y a souvent des classes 
 
 
 Souvent pour travailler avec Bootstrap tu dois enlever certiane classes qui sont au dessu pour mettre tes styles que tu veux.
+
+
+Pour la création d'entités et du dbcontext, j'ai dû utiliser ce lien:
+https://zestedesavoir.com/tutoriels/597/creez-votre-site-web-avec-asp-net/269_gerer-la-base-de-donnees-avec-entity-framework-code-first/1652_la-couche-de-sauvegarde-les-entites/
+Pour la création du applicationUser, j'ai utilisé ce lien:
+https://msdn.microsoft.com/fr-fr/magazine/dn818488.aspx
+
+Pour le framework, j'ai utilisé asp.net au lieu de asp.netCore qui lui contrairement à l'autre, permet que les applications soient écrites en LInux et MacOs en plus de windows.
+
+Pour comprendre l,architecture de ce projet et comprendre les autres architecture disponibles, pour asp.net, pour comprendre le DbContext,
+regardons ce tutoriel et les liens qui emmènent vers d'autres tutoriels:
+https://reward.developpez.com/tutoriels/dotnet/entity-framework/approche-code-first/#LIV
+
+Voici une liste de design pattern de ASP.NET: https://www.supinfo.com/articles/single/2766-aspnet-architecture-web-design-patterns
+
+Voici une explication du de l'utilisation du UnitOfWork: https://docs.microsoft.com/fr-fr/aspnet/mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/implementing-the-repository-and-unit-of-work-patterns-in-an-asp-net-mvc-application
+https://www.c-sharpcorner.com/UploadFile/b1df45/unit-of-work-in-repository-pattern/
+
+Iterateurs d'objet: https://www.dotnetdojo.com/introduction-aux-iterateurs-csharp/
+repository avec Iterateur d'objet Ienumerable: https://deviq.com/repository-pattern/
+
