@@ -16,6 +16,7 @@ namespace OnEstEnsemble.Data
         }
 
         public virtual DbSet<OES_Events> Evenements { get; set; }
+        public DbSet<OES_Events> Events { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
 
         // Aide à configurer les liaisons entre les tables, comme one to one, many to one, many to many,...

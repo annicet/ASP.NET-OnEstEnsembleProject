@@ -31,7 +31,13 @@ namespace OnEstEnsemble.Data.Repositories
 
         public IEnumerable<OES_Events> GetEventsList()
         {
-            throw new NotImplementedException();
+            string sql = _uow.EventsQueryManager.Query();
+            return _context.Events.SqlQuery(sql).AsNoTracking().ToList();
+        }
+
+        public List<OES_Events> GetList()
+        {
+            return _context.Events.ToList();
         }
 
         public void Insert(OES_Events entity)
@@ -43,5 +49,7 @@ namespace OnEstEnsemble.Data.Repositories
         {
             throw new NotImplementedException();
         }
+
+
     }
 }

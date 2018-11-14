@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OES.Core\OnEstEnsemble.Core.csproj" />
+    <ProjectReference Include="..\OnEstEnsemble.Data\OnEstEnsemble.Data.csproj" />
+  </ItemGroup>
+
+</Project>
